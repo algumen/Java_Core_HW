@@ -1,6 +1,6 @@
 package PracticalExercisesPerSession_2_5;
 
-public class MetodCheck {
+public class MethodTest {
 
     public static void main(String[] args) {
         int[] a = new int[]{4, 5, 6, 7};
