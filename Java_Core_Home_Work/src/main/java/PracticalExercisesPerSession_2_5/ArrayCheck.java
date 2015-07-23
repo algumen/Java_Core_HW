@@ -18,14 +18,15 @@ public class ArrayCheck {
         }
         int[] c = new int[b];
 
-        for (int i = 2; i <= b; i++) {
-            c[i] = 10;
+        for (int i = 0; i <= b; i++) {
+            c[i] = i;
         }
         Arrays.sort(c);
         for (int i = 0; i <= b; i++) {
             System.out.println(c[i]);
-        }
 
+        }
         return;
+
     }
 }
